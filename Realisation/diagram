@@ -1,0 +1,18 @@
+UTILISATEUR
+- id (PK)
+- nom
+- email
+
+ARTICLE
+- id (PK)
+- titre
+- contenu
+- date_pub
+- utilisateur_id (FK)
+
+COMMENTAIRE
+- id (PK)
+- contenu
+- auteur
+- date_commentaire
+- article_id (FK)
